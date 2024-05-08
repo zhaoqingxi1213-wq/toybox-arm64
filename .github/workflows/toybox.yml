@@ -22,7 +22,7 @@ jobs:
       run: VERBOSE=all make tests
 
   Ubuntu-20_04:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
